@@ -93,5 +93,9 @@ namespace ETS_PBKK
             output.Text = convertedAmount.ToString("0.00") + " " + rate2.SelectedItem.ToString();
         }
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
